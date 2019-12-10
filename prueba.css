@@ -1,0 +1,55 @@
+p{
+    color:red;
+}
+/* 
+*{
+    color:royalblue;
+} 
+*/
+p.aviso{
+    color: seagreen;
+}
+
+.punto{
+    color: blue;
+}
+
+p#identificador{
+    color: blueviolet;
+}
+
+/*
+#identificador{
+    color: blueviolet;
+} 
+*/
+div {
+    border: orange 3px solid;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  div p {
+    color: orange;
+  }
+
+  /*  ES LO MISMO QUE LO ANTERIOR
+  div > p {
+    color: red;
+  } 
+  */
+
+  div + h3 {
+    color: green;
+  }
+
+  p.p1{
+      color: palevioletred;
+  }
+  p.p2{
+      color: palevioletred;
+  }
+  p[class="p1 p2"] {
+    text-transform: uppercase;
+  }
+
